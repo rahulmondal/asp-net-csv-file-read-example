@@ -1,0 +1,13 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>Delimiter Separated File Read</h1>
+    <p class="lead">Order PO: @ViewBag.Order.Po</p>
+    <p class="lead">Order Address: @ViewBag.Order.Address</p>
+    @foreach (var line in @ViewBag.Order.OrderLines)
+    {
+        <p class="lead">SKU: @line.Sku, Quantity: @line.Quantity</p>
+    }
+</div>

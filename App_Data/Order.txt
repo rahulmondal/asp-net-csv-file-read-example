@@ -1,0 +1,3 @@
+PO|Address|SKU|Quantity
+HF-000-023|2nd Street, 52 road, CA, CA, USA|OP-912-321|10
+HF-000-023|2nd Street, 52 road, CA, CA, USA|OP-912-322|5
